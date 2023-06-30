@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    height: 100px;
+    /* background-color: rgb(184, 146, 220); */
+    grid-template-areas: "esquerdo" "direito";
+}
+
+.nav {
+    padding: 20px;
+    width: 100%;
+    height: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: blueviolet; */
+
+
+}
+
+.logo {
+    height: 145px;
+}
+
+.links {
+    flex-direction: row;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Tigedeblug', sans-serif;
+    gap: 20px;
+}
+
+.menu {
+    display: flex;
+    height: 30px;
+    gap: 8px;
+}
+
+.esquerdo {
+    grid-area: esquerdo;
+    height: 600px;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    /* background-color: aqua; */
+}
+
+.title-text {
+    padding-left: 100px;
+    font-family: 'MOONTANK', sans-serif;
+    font-size: 20px;
+    color: rgb(90, 89, 89);
+    /* font-weight: bold; */
+}
+
+.title-principal {
+    font-family: 'Gill Sans MT';
+    font-size: 80px;
+    color: #8A2D5E;
+    padding-left: 100px;
+
+}
+
+.nome {
+    display: flex;
+    font-family: 'Mignone', sans-serif;
+    padding-left: 100px;
+
+
+}
+
+.subtitle-text {
+    font-family: 'MOONTANK', sans-serif;
+    color: rgb(132, 124, 124);
+    width: 500px;
+    font-size: 20px;
+    padding-left: 100px;
+}
