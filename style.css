@@ -6,6 +6,7 @@
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 body {
@@ -61,7 +62,6 @@ body {
     font-family: 'MOONTANK', sans-serif;
     font-size: 20px;
     color: rgb(90, 89, 89);
-    /* font-weight: bold; */
 }
 
 .title-principal {
@@ -70,6 +70,12 @@ body {
     color: #8A2D5E;
     padding-left: 100px;
 
+}
+
+.subtitles{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .nome {
@@ -83,7 +89,26 @@ body {
 .subtitle-text {
     font-family: 'MOONTANK', sans-serif;
     color: rgb(132, 124, 124);
-    width: 500px;
-    font-size: 20px;
+    width: 530px;
+    font-size: 18px;
+    text-align: justify;
     padding-left: 100px;
 }
+
+button{
+    align-items: center;
+    justify-content: center;
+    display:flex ;   
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: #8A2D5E;
+    height: 45px;
+    width: 450px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Odor Mean Chey', sans-serif;
+    font-weight: bold;
+    border: none;
+
+}
+
