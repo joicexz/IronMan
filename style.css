@@ -13,7 +13,6 @@ body {
     display: grid;
     width: 100vw;
     height: 100vh;
-    /* background-color: rgb(184, 146, 220); */
     grid-template-rows: 145px 1fr;
     grid-template-areas: "cima" "baixo";
 }
@@ -26,9 +25,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: blueviolet; */
-
-
 }
 
 .logo {
@@ -43,6 +39,15 @@ body {
     gap: 20px;
 }
 
+.links p {
+    border-bottom: 4px solid transparent;
+    transition: .5s;
+}
+
+.links p:hover {
+    border-bottom: 4px solid #8A2D5E;
+}
+
 .menu {
     display: flex;
     height: 30px;
@@ -50,7 +55,6 @@ body {
 }
 
 .corpo {
-    /* background-color: antiquewhite; */
     grid-area: baixo;
     display: grid;
     grid-template-columns: 650px 1fr;
@@ -64,8 +68,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
-    /* background-color: aqua; */
 }
 
 .title-text {
@@ -80,7 +82,6 @@ body {
     font-size: 80px;
     color: #8A2D5E;
     padding-left: 100px;
-
 }
 
 .subtitles {
@@ -93,8 +94,6 @@ body {
     display: flex;
     font-family: 'Mignone', sans-serif;
     padding-left: 100px;
-
-
 }
 
 .subtitle-text {
@@ -120,7 +119,6 @@ button {
     font-family: 'Odor Mean Chey', sans-serif;
     font-weight: bold;
     border: none;
-
 }
 
 .midias {
@@ -136,26 +134,19 @@ button {
     height: 100%;
     width: 100%;
     display: flex;
-
-    /* background-color: rgb(207, 38, 38); */
 }
 
 .direito img {
-    /* display: flex; */
     height: 580px;
     margin-left: 140px;
 }
 
 .direito h1 {
     display: flex;
-    color: #8a2d5e80;
+    color: #b26f9380;
     font-family: 'Copse', sans-serif;
     font-size: 110px;
     transform: rotate(-90deg);
-    /* align-items: center; */
-    /* justify-content: flex-end; */
-    position: absolute;
-    padding-top: 100px;
-    padding-right: 400px;
-
+    padding-top: 370px;
+    margin-bottom: 100px;
 }
